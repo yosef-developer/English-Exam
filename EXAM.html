@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,10 +10,60 @@
     <link rel="stylesheet" href="./css/EXAM.css">
 
 </head>
+
 <body>
 
 
+    <div class="firststage">
+        <button class="start-btn">Start Quiz</button>
+    </div>
+
+    <div class="secondstage">
+        <p class="text-rules">Some Rules of this Quiz</p>
+        <div class="rules">
+            <p>1. You will have only <span>20 seconds</span> per each question.</p>
+            <p>2. Once you select your answer, it can not be undone.</p>
+            <p>3. You can not select any option once time gone off.</p>
+            <p>4. You can not exit from the Quiz while you are playing.</p>
+            <p>5. You will get points on the basis of your correct answers.</p>
+        </div>
+        <div class="secondstage-btn">
+            <button class="continue-btn">Continue</button>
+            <button class="exit-btn">Exit Quiz</button>
+        </div>
+    </div>
+
+    <div class="thirdstage">
+        <div class="showtime">
+            <div class="block">
+                <p>Awesome Quiz Application</p>
+                <div class="timer-number">
+                    <span>Time Left</span>
+                    <div class="number-logical">20</div>
+                </div>
+            </div>
+            <div class="timer-graphic">
+            </div>
+        </div>
+
+        <div class="question-menu">
+            <p class="question"></p>
+            <option value="" class="option1 option"></option>
+            <option value="" class="option2 option"></option>
+            <option value="" class="option3 option"></option>
+            <option value="" class="option4 option"></option>
+        </div>
+        <hr>
+
+        <div class="navigation">
+            <div class="question-number">
+                <span>1</span> of 5 Questions.
+            </div>
+            <button class="nextque">Next Que</button>
+        </div>
+    </div>
 
     <script src="./js/EXAM.js"></script>
 </body>
+
 </html>
