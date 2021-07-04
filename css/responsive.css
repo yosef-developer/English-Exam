@@ -1,0 +1,129 @@
+@media (max-width : 1200px) {
+    .thirdstage {
+        width: 35%;
+    } 
+}
+@media (max-width : 1065px) {
+    .thirdstage {
+        width: 40%;
+    } 
+
+    .forthstage {
+        width: 29%;
+    }
+
+    .start-btn {
+        font-size: 1.4rem;
+    }
+}
+
+@media (max-width : 930px) {
+    .thirdstage {
+        width: 44%;
+    } 
+
+    .forthstage {
+        width: 32.5%;
+    }
+}
+
+@media (max-width : 820px) {
+
+    .firststage {
+        font-size: .9rem;
+    }
+
+    .start-btn {
+        font-size: 1.1rem;
+    }
+    .secondstage {
+        font-size: .9rem;
+    }
+
+    .forthstage { 
+        width: 37.5%;
+        font-size: .9rem;
+    }
+    .thirdstage {
+        width: 49%;
+    } 
+
+    .continue-btn , .exit-btn {
+        font-size: .8rem;
+    }
+
+}
+@media (max-width : 680px) {
+    .thirdstage {
+        width: 60%;
+    } 
+
+    .forthstage {
+        width: 45.5%;
+    }
+}
+
+@media (max-width : 560px) {
+
+    .firststage {
+        font-size: .8rem;
+    }
+    .secondstage {
+        font-size: .8rem;
+    }
+    .thirdstage {
+        width: 67%;
+        font-size: .8rem;
+    } 
+
+    .forthstage {
+        font-size: .85rem;
+        width: 51.5%;
+    }
+
+    .start-btn {
+        font-size: 1.7rem;
+    }
+
+    .continue-btn , .exit-btn {
+        font-size: .7rem;
+    }
+
+    .nextque {
+        font-size: .8rem;
+    }
+
+}
+
+@media (max-width : 460px) {
+    .thirdstage {
+        width: 80%;
+    } 
+
+    .forthstage {
+        width: 62%;
+    }
+
+    .nextque {
+        font-size: .65rem;
+    }
+}
+@media (max-width : 380px) {
+    .thirdstage {
+        width: 95%;
+    } 
+
+    .timer-number {
+        width: 60%;
+    }
+
+    .thirdstage .showtime p {
+        width: 60%;
+        display: block;
+    }
+
+    .forthstage {
+        width: 74%;
+    }
+
+}

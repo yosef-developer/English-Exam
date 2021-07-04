@@ -8,6 +8,11 @@
     <title>English exam</title>
     <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/EXAM.css">
+    <link rel="stylesheet" href="./css/responsive.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+
+
 
 </head>
 
@@ -39,7 +44,7 @@
                 <p>Awesome Quiz Application</p>
                 <div class="timer-number">
                     <span>Time Left</span>
-                    <div class="number-logical">20</div>
+                    <div class="number-logical">15</div>
                 </div>
             </div>
             <div class="timer-graphic">
@@ -48,20 +53,47 @@
 
         <div class="question-menu">
             <p class="question"></p>
-            <option value="" class="option1 option"></option>
-            <option value="" class="option2 option"></option>
-            <option value="" class="option3 option"></option>
-            <option value="" class="option4 option"></option>
+            <div>
+                <option value="" class="option1 option"></option>
+                <img>
+            </div>
+            <div>
+                <option value="" class="option2 option"></option>
+                <img>
+            </div>
+            <div>
+                <option value="" class="option3 option"></option>
+                <img>
+            </div>
+            <div>
+                <option value="" class="option4 option"></option>
+                <img>
+            </div>
         </div>
         <hr>
 
         <div class="navigation">
             <div class="question-number">
-                <span>1</span> of 5 Questions.
+                <span class="question-number-of">1</span> of <span class="final-question">5</span> Questions.
             </div>
             <button class="nextque">Next Que</button>
         </div>
     </div>
+
+    <div class="forthstage">
+        <i class="fas fa-crown"></i>
+        <p class="stage1">You have completed the Quiz</p>
+        <p class="stage2">and <span class="text-score"></span> <img class="score-sticker"> ,
+            You got <span class="final-score-from">2 </span> out <span class="final-score-to">5</span>
+        </p>
+        <div class="final-result">
+            <button class="reply-quiz">Reply Quiz</button>
+            <button class="quit-quiz">Quit Quiz</button>
+        </div>
+    </div>
+
+
+
 
     <script src="./js/EXAM.js"></script>
 </body>
